@@ -34,7 +34,7 @@ export default {
 
     var id = 0;
     for (let i = 0; i < 50; i++) {
-      let time = range(0, 4),
+      let time = range(0, 6),
         raindrop = this.raindropImg[i % 10];
 
       this.raindropList.push({
@@ -89,7 +89,7 @@ export default {
   0% {
     filter: grayscale(100%) blur(10px);
   }
-  50% {
+  70% {
     filter: grayscale(100%) blur(10px);
   }
   100% {
